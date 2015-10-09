@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\imperavi;
+namespace bobroid\imperavi;
 use yii\web\AssetBundle;
 
 /**
@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  */
 class FontfamilyImperaviRedactorPluginAsset extends AssetBundle
 {
-    public $sourcePath = '@yii/imperavi/assets/plugins/fontfamily';
+    public $sourcePath = '@vendor/bobroid/imperavi/assets/plugins/fontfamily';
     public $js = [
         'fontfamily.js'
     ];
@@ -22,6 +22,6 @@ class FontfamilyImperaviRedactorPluginAsset extends AssetBundle
 
     ];
     public $depends = [
-        'yii\imperavi\ImperaviRedactorAsset'
+        'bobroid\imperavi\ImperaviRedactorAsset'
     ];
 }

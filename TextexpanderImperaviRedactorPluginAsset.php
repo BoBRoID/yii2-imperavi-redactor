@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\imperavi;
+namespace bobroid\imperavi;
 use yii\web\AssetBundle;
 
 /**
@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  */
 class TextexpanderImperaviRedactorPluginAsset extends AssetBundle
 {
-    public $sourcePath = '@yii/imperavi/assets/plugins/textexpander';
+    public $sourcePath = '@vendor/bobroid/imperavi/assets/plugins/textexpander';
     public $js = [
         'textexpander.js',
     ];
@@ -22,6 +22,6 @@ class TextexpanderImperaviRedactorPluginAsset extends AssetBundle
 
     ];
     public $depends = [
-        'yii\imperavi\ImperaviRedactorAsset'
+        'bobroid\imperavi\ImperaviRedactorAsset'
     ];
 }

@@ -34,7 +34,7 @@
         "yiisoft/yii2": "*"
     },
     "autoload": {
-        "psr-0": { "yii\\imperavi\\": "" }
+        "psr-0": { "bobroid\\imperavi\\": "" }
     },
-    "target-dir": "yii/imperavi"
+    "target-dir": "bobroid/imperavi"
 }

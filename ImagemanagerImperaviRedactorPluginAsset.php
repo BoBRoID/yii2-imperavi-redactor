@@ -1,11 +1,11 @@
 <?php
 
-namespace yii\imperavi;
+namespace bobroid\imperavi;
 use yii\web\AssetBundle;
 
 class ImagemanagerImperaviRedactorPluginAsset extends AssetBundle
 {
-    public $sourcePath = '@yii/imperavi/assets/plugins/imagemanager';
+    public $sourcePath = '@vendor/bobroid/imperavi/assets/plugins/imagemanager';
     public $js = [
         'imagemanager.js'
     ];
@@ -13,6 +13,6 @@ class ImagemanagerImperaviRedactorPluginAsset extends AssetBundle
 
     ];
     public $depends = [
-        'yii\imperavi\ImperaviRedactorAsset'
+        'bobroid\imperavi\ImperaviRedactorAsset'
     ];
 }

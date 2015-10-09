@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\imperavi;
+namespace bobroid\imperavi;
 use yii\web\AssetBundle;
 
 /**
@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  */
 class LimiterImperaviRedactorPluginAsset extends AssetBundle
 {
-    public $sourcePath = '@yii/imperavi/assets/plugins/limiter';
+    public $sourcePath = '@vendor/bobroid/imperavi/assets/plugins/limiter';
     public $js = [
         'limiter.js',
     ];
@@ -22,6 +22,6 @@ class LimiterImperaviRedactorPluginAsset extends AssetBundle
 
     ];
     public $depends = [
-        'yii\imperavi\ImperaviRedactorAsset'
+        'bobroid\imperavi\ImperaviRedactorAsset'
     ];
 }

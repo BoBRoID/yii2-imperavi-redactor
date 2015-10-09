@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\imperavi;
+namespace bobroid\imperavi;
 
 use Yii;
 use yii\helpers\Html;
@@ -129,9 +129,9 @@ class Widget extends \yii\base\Widget
      */
     protected function registerPlugin($name)
     {
-        $asset = "yii\\imperavi\\" . ucfirst($name) . "ImperaviRedactorPluginAsset";
+        $asset = "bobroid\\imperavi\\" . ucfirst($name) . "ImperaviRedactorPluginAsset";
         // check exists file before register (it may be custom plugin with not standard file placement)
-        $sourcePath = Yii::$app->vendorPath . '/asofter/yii2-imperavi-redactor/' . str_replace('\\', '/', $asset) . '.php';
+        $sourcePath = Yii::$app->vendorPath . '/bobroid/yii2-imperavi-redactor/' . str_replace('\\', '/', $asset) . '.php';
         if (is_file($sourcePath)) {
             $asset::register($this->getView());
         }

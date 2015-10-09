@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\imperavi;
+namespace bobroid\imperavi;
 use Yii;
 use yii\web\AssetBundle;
 
@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  */
 class ImperaviRedactorAsset extends AssetBundle
 {
-    public $sourcePath = '@yii/imperavi/assets';
+    public $sourcePath = '@vendor/bobroid/imperavi/assets';
     public $js = [
         'redactor.js'
     ];

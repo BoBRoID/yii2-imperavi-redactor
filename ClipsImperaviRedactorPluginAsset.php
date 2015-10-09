@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\imperavi;
+namespace bobroid\imperavi;
 use yii\web\AssetBundle;
 
 /**
@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  */
 class ClipsImperaviRedactorPluginAsset extends AssetBundle
 {
-    public $sourcePath = '@yii/imperavi/assets/plugins/clips';
+    public $sourcePath = '@vendor/bobroid/imperavi/assets/plugins/clips';
     public $js = [
         'clips.js',
     ];
@@ -22,6 +22,6 @@ class ClipsImperaviRedactorPluginAsset extends AssetBundle
         'clips.css'
     ];
     public $depends = [
-        'yii\imperavi\ImperaviRedactorAsset'
+        'bobroid\imperavi\ImperaviRedactorAsset'
     ];
 }
