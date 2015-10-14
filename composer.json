@@ -35,6 +35,5 @@
     },
     "autoload": {
         "psr-0": { "bobroid\\imperavi\\": "" }
-    },
-    "target-dir": "bobroid/imperavi"
+    }
 }
